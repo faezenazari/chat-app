@@ -1,38 +1,135 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background: #f4f4f4;
+  font-family: sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.chat-container {
+  width: 90%;
+  height: 95vh;
+  margin: 20px auto;
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
+
+  box-shadow: 0 5px 20px rgba(0,0,0,.1);
+}
+
+.header {
+  height: 90px;
+  padding: 0 30px;
+  border-bottom: 1px solid #eee;
+
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.user img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+
+.chat-body {
+  flex: 1;
+  padding: 30px;
+  overflow-y: auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  background: #f8f8fc;
+}
+
+.message-wrapper {
+  display: flex;
+}
+
+.sent {
+  justify-content: flex-end;
+}
+
+.received {
+  justify-content: flex-start;
+}
+
+.message {
+  padding: 14px 18px;
+  border-radius: 20px;
+  max-width: 400px;
+}
+
+.my-message {
+  background: linear-gradient(
+    135deg,
+    #6d5dfc,
+    #4c3fff
+  );
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.other-message {
+  background: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,.1);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.message span {
+  display: block;
+  text-align: right;
+  font-size: 12px;
+  margin-top: 8px;
 }
+
+.input-area {
+  height: 80px;
+  border-top: 1px solid #eee;
+
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  padding: 0 20px;
+}
+
+.input-area input {
+  flex: 1;
+  height: 45px;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  padding: 0 20px;
+  outline: none;
+}
+
+.input-area button {
+  border: none;
+  background: #5a4fff;
+  color: white;
+
+  padding: 12px 25px;
+  border-radius: 25px;
+
+  cursor: pointer;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
