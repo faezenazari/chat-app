@@ -68,3 +68,64 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Features
+
+* Modern chat layout
+* Reusable React components
+* Message sending functionality
+* Dynamic message rendering using React state
+* Responsive design
+* Clean and organized project structure
+
+## Project Structure
+src
+├── App.jsx
+├── App.css
+├── components
+│   ├── ChatHeader.jsx
+│   ├── Message.jsx
+│   └── MessageInput.jsx
+
+## Technologies Used
+
+* React
+* JavaScript (ES6+)
+* CSS3
+* Create React App
+## Components
+
+### ChatHeader
+
+Displays user profile information and online status.
+
+### Message
+
+Renders individual chat messages.
+
+### MessageInput
+
+Handles user input and sending messages.
+
+### App
+
+Main component responsible for managing chat state and rendering the application.
+
+## Screenshots
+
+Add screenshots of the project here.
+
+Example:
+![Chat UI](./assets/chat-ui.png)
+
+## Future Improvements
+
+* Backend integration
+* Real-time messaging
+* User authentication
+* Chat history persistence
+* Dark mode support
+
+## Author
+
+Faezeh Nazari
