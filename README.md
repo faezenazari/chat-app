@@ -1,3 +1,7 @@
+## Screenshots
+Add screenshots of the project here.
+(https://github.com/faezenazari/chat-app/issues/1)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -110,11 +114,6 @@ Handles user input and sending messages.
 ### App
 
 Main component responsible for managing chat state and rendering the application.
-
-## Screenshots
-
-Add screenshots of the project here.
-(https://github.com/faezenazari/chat-app/issues/1)
 
 ## Future Improvements
 
