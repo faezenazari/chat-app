@@ -114,9 +114,7 @@ Main component responsible for managing chat state and rendering the application
 ## Screenshots
 
 Add screenshots of the project here.
-
-Example:
-![Chat UI](./assets/chat-ui.png)
+(https://github.com/faezenazari/chat-app/issues/1)
 
 ## Future Improvements
 
